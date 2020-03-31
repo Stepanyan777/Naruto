@@ -1,0 +1,41 @@
+body {
+	background-image:url(../images/pure-css-snow-animation.gif);
+	background-repeat: resize: none;
+	color:#000;
+}
+
+img { border: 0; }
+
+
+.menu{
+    background-image: url("../images/setka.png");
+    background-repeat: repeat;
+    height: 70px;
+}
+
+#content {
+    padding: 5px 25px;
+}
+
+#wrapper {
+    width: 600px;
+    margin:10px auto;
+    background-color: #CBE19A;
+}
+
+.menu .nav {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%
+}
+
+.nav{
+	font-family: impact tahoma;
+	columns: #fff;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.nav li {
+	padding: 5px 20px;
+}
